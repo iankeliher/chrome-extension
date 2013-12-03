@@ -1,0 +1,13 @@
+{
+  "name": "Gawker, Simplified",
+  "description": "Removes ads, annoying sidebar, and is charmingly subversive w/r/t sponsored posts",
+  "version": "0.0.1",  
+  "content_scripts": [
+    {
+      "matches": ["http://gawker.com/*"],
+      "css": ["styleGawker.css"],
+      "js": ["jquery.js", "scriptGawker.js"]
+    }
+  ],
+  "manifest_version": 2 
+}

@@ -1,0 +1,13 @@
+.hide {
+	display: none;
+}
+
+#bodyResize {
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+}
+
+.moveRight {
+	float: right;
+}
